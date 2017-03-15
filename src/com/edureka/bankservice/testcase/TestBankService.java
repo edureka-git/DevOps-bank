@@ -39,7 +39,7 @@ public class TestBankService extends TestCase{
 	 @Test
 	 public void testLogin() throws Exception {
 		 
-	  String FILENAME = "/var/lib/jenkins/workspace/FP_QA_PACKAGE/target/DevopsBank-0.0.1-SNAPSHOT/WEB-INF/classes/Login.txt";
+	  String FILENAME = "/var/lib/jenkins/workspace/FP_QA_PACKAGE/src/Login.txt";
 		 
 	  when(request.getParameter("username")).thenReturn("1111");
 	  when(request.getParameter("password")).thenReturn("p1");
@@ -92,7 +92,7 @@ public class TestBankService extends TestCase{
 	 @Test 
 	 public void testDetails() throws Exception {	
 		 
-	 	String FILENAME = "/var/lib/jenkins/workspace/FP_QA_PACKAGE/target/DevopsBank-0.0.1-SNAPSHOT/WEB-INF/classes/details.txt";
+	 	String FILENAME = "/var/lib/jenkins/workspace/FP_QA_PACKAGE/src/details.txt";
 
 	 	when(request.getParameter("account_number")).thenReturn("1111");
         when(request.getSession()).thenReturn(session);
