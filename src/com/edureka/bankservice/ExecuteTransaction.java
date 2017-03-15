@@ -19,8 +19,12 @@ import javax.servlet.http.HttpSession;
 public class ExecuteTransaction extends HttpServlet 
 {
 	private static final long serialVersionUID = 1L;
-	private static final String FILENAME = "data/details.txt";
-	private static final String FILENAME_TMP = "data/details_tmp.txt";
+	
+	ServletContext context = getContext();
+	URL url1 = context.getResource("/WEB-INF/classes/details.txt");
+	URL url2 = context.getResource("/WEB-INF/classes/details_tmp.txt");
+	private static final String FILENAME = url1;
+	private static final String FILENAME_TMP = url2";
 
     public ExecuteTransaction() {
         super();
