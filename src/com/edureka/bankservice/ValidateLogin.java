@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 @WebServlet("/ValidateLogin")
 public class ValidateLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static final String FILENAME = "/home/edureka/workspace1/DevopsBank/src/Login.txt";
+	private static final String FILENAME = "/var/lib/jenkins/workspace/FP_QA_PACKAGE/target/DevopsBank-0.0.1-SNAPSHOT/WEB-INF/classes/Login.txt";
     public ValidateLogin() {
         super();
         }
