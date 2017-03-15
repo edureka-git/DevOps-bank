@@ -16,9 +16,9 @@ import javax.servlet.http.HttpSession;
 public class GetAccountAndBalance extends HttpServlet
 {
 	private static final long serialVersionUID = 1L;
-	ServletContext context = getContext();
-	URL url1 = context.getResource("/WEB-INF/classes/details.txt");
-	private static final String FILENAME = url1;
+	//ServletContext context = getContext();
+	//URL url1 = context.getResource("/WEB-INF/classes/details.txt");
+	private static final String FILENAME = "details.txt";
 
     public GetAccountAndBalance() 
     {
