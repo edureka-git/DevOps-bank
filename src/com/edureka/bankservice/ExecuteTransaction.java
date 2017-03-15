@@ -23,8 +23,8 @@ public class ExecuteTransaction extends HttpServlet
 	//ServletContext context = getContext();
 	//URL url1 = context.getResource("/WEB-INF/classes/details.txt");
 	//URL url2 = context.getResource("/WEB-INF/classes/details_tmp.txt");
-	private static final String FILENAME = "/home/edureka/apache-tomcat-8.0.23/webapps/DevOpsCert/details.txt";
-	private static final String FILENAME_TMP = "/home/edureka/apache-tomcat-8.0.23/webapps/DevOpsCert/details_tmp.txt";
+	private static final String FILENAME = "/home/edureka/apache-tomcat-8.0.23/webapps/DevOpsCert/WEB-INF/classes/details.txt";
+	private static final String FILENAME_TMP = "/home/edureka/apache-tomcat-8.0.23/webapps/DevOpsCert/WEB-INF/classes/details_tmp.txt";
 
     public ExecuteTransaction() {
         super();
