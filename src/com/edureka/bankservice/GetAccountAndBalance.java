@@ -18,7 +18,7 @@ public class GetAccountAndBalance extends HttpServlet
 	private static final long serialVersionUID = 1L;
 	//ServletContext context = getContext();
 	//URL url1 = context.getResource("/WEB-INF/classes/details.txt");
-	private static final String FILENAME = "DevOpsCert/details.txt";
+	private static final String FILENAME = "/home/edureka/apache-tomcat-8.0.23/webapps/DevOpsCert/details.txt";
 
     public GetAccountAndBalance() 
     {
