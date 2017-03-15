@@ -17,7 +17,7 @@ public class ValidateLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	//ServletContext context = getContext();
 	//URL url1 = context.getResource("/WEB-INF/classes/Login.txt");
-	private static final String FILENAME = "/DevOpsCert/Login.txt";
+	private static final String FILENAME = "/home/edureka/apache-tomcat-8.0.23/webapps/DevOpsCert/Login.txt";
     public ValidateLogin() {
         super();
         }
