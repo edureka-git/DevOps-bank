@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 @WebServlet("/ValidateLogin")
 public class ValidateLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static final String FILENAME = "/home/edureka/Login.txt";
+	private static final String FILENAME = "/home/edureka/data/Login.txt";
     public ValidateLogin() {
         super();
         }
