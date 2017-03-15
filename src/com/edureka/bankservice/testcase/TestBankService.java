@@ -38,8 +38,10 @@ public class TestBankService extends TestCase{
 
 	 @Test
 	 public void testLogin() throws Exception {
-		 
-	  String FILENAME = "data/Login.txt";
+	  
+          ServletContext context = getContext();
+	  URL url1 = context.getResource("/WEB-INF/classes/Login.txt");
+	  String FILENAME = url1;
 		 
 	  when(request.getParameter("username")).thenReturn("1111");
 	  when(request.getParameter("password")).thenReturn("p1");
@@ -92,7 +94,10 @@ public class TestBankService extends TestCase{
 	 @Test 
 	 public void testDetails() throws Exception {	
 		 
-	 	String FILENAME = "data/details.txt";
+		ServletContext context = getContext();
+	        URL url1 = context.getResource("/WEB-INF/classes/details.txt");
+	
+	 	String FILENAME = url1;
 
 	 	when(request.getParameter("account_number")).thenReturn("1111");
         when(request.getSession()).thenReturn(session);
