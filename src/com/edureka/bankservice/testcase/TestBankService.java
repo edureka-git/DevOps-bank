@@ -41,7 +41,7 @@ public class TestBankService extends TestCase{
 	  
           //ServletContext context = getContext();
 	  //URL url1 = context.getResource("/WEB-INF/classes/Login.txt");
-	  String FILENAME = "/home/edureka/apache-tomcat-8.0.23/webapps/DevOpsCert/Login.txt";
+	  String FILENAME = "/home/edureka/apache-tomcat-8.0.23/webapps/DevOpsCert/WEB-INF/classes/Login.txt";
 		 
 	  when(request.getParameter("username")).thenReturn("1111");
 	  when(request.getParameter("password")).thenReturn("p1");
@@ -97,7 +97,7 @@ public class TestBankService extends TestCase{
 		//ServletContext context = getContext();
 	        //URL url1 = context.getResource("/WEB-INF/classes/details.txt");
 	
-	 	String FILENAME = "/home/edureka/apache-tomcat-8.0.23/webapps/DevOpsCert/details.txt";
+	 	String FILENAME = "/home/edureka/apache-tomcat-8.0.23/webapps/DevOpsCert/WEB-INF/classes/details.txt";
 
 	 	when(request.getParameter("account_number")).thenReturn("1111");
         when(request.getSession()).thenReturn(session);
