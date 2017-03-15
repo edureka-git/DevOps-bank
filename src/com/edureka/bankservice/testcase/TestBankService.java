@@ -41,7 +41,7 @@ public class TestBankService extends TestCase{
 	  
           //ServletContext context = getContext();
 	  //URL url1 = context.getResource("/WEB-INF/classes/Login.txt");
-	  String FILENAME = "Login.txt";
+	  String FILENAME = "DevOpsCert/Login.txt";
 		 
 	  when(request.getParameter("username")).thenReturn("1111");
 	  when(request.getParameter("password")).thenReturn("p1");
@@ -97,7 +97,7 @@ public class TestBankService extends TestCase{
 		//ServletContext context = getContext();
 	        //URL url1 = context.getResource("/WEB-INF/classes/details.txt");
 	
-	 	String FILENAME = "details.txt";
+	 	String FILENAME = "DevOpsCert/details.txt";
 
 	 	when(request.getParameter("account_number")).thenReturn("1111");
         when(request.getSession()).thenReturn(session);
