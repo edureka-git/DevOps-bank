@@ -39,7 +39,7 @@ public class TestBankService extends TestCase{
 	 @Test
 	 public void testLogin() throws Exception {
 		 
-	  String FILENAME = "/home/edureka/data/Login.txt";
+	  String FILENAME = "data/Login.txt";
 		 
 	  when(request.getParameter("username")).thenReturn("1111");
 	  when(request.getParameter("password")).thenReturn("p1");
@@ -92,7 +92,7 @@ public class TestBankService extends TestCase{
 	 @Test 
 	 public void testDetails() throws Exception {	
 		 
-	 	String FILENAME = "/home/edureka/data/details.txt";
+	 	String FILENAME = "data/details.txt";
 
 	 	when(request.getParameter("account_number")).thenReturn("1111");
         when(request.getSession()).thenReturn(session);
