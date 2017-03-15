@@ -15,7 +15,9 @@ import javax.servlet.http.HttpSession;
 @WebServlet("/ValidateLogin")
 public class ValidateLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static final String FILENAME = "data/Login.txt";
+	ServletContext context = getContext();
+	URL url1 = context.getResource("/WEB-INF/classes/Login.txt");
+	private static final String FILENAME = url1;
     public ValidateLogin() {
         super();
         }
