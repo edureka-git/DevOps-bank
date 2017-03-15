@@ -19,8 +19,8 @@ import javax.servlet.http.HttpSession;
 public class ExecuteTransaction extends HttpServlet 
 {
 	private static final long serialVersionUID = 1L;
-	private static final String FILENAME = "/home/edureka/details.txt";
-	private static final String FILENAME_TMP = "/home/edureka/details_tmp.txt";
+	private static final String FILENAME = "/home/edureka/data/details.txt";
+	private static final String FILENAME_TMP = "/home/edureka/data/details_tmp.txt";
 
     public ExecuteTransaction() {
         super();
